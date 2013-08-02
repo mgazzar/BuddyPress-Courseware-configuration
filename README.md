@@ -8,3 +8,4 @@ how to configure BP Courseware  with BP 1.7.2
 Fisrt step is to edit groups.class.php to remove some issues 
 
 
+Second u need to activate the forum from buddypress settings to activate BuddyPress-Courseware
