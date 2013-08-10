@@ -21,3 +21,16 @@ height: auto;
 }
 
 http://wordpress.org/support/topic/slider-height-3/page/2
+
+
+-------------------------------------------
+
+to edit the navbar 
+
+
+
+.navbar .nav > li > a {
+color: COLOURVALUE;
+}
+
+http://wordpress.org/support/topic/change-color-of-words-in-menu?replies=4
