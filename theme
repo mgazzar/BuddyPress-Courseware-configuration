@@ -34,3 +34,13 @@ color: COLOURVALUE;
 }
 
 http://wordpress.org/support/topic/change-color-of-words-in-menu?replies=4
+
+-----------------
+to edit the upper menu
+
+.navbar .nav > li > a {
+  float: none;
+  padding: 10px 15px 10px;
+  color: #777777;
+  text-decoration: none;
+}
