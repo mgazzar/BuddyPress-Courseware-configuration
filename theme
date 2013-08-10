@@ -1,0 +1,23 @@
+to edit the slider follow these instructions
+
+Tried also add lines into the child css like
+
+.carousel .item {
+line-height: 380px;
+overflow: hidden;
+min-height: 880px;
+}
+.carousel-image {
+position: absolute;
+top: 0;
+left: 0;
+min-width: 100%;
+height: auto;
+}
+.carousel-image img {
+width: 100%;
+height: auto;
+/* max-height: 100%; */
+}
+
+http://wordpress.org/support/topic/slider-height-3/page/2
