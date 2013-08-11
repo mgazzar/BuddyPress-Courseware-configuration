@@ -67,3 +67,8 @@ remove post thum
 C:\xampp\htdocs\xxxx\wp-content\themes\customizr\parts\class-content-post.php
 
  add_action  ( '__post_thumbnail'        , array( $this , 'tc_content_post_thumbnail' ));
+
+Remove Disable ToolBar Removal
+=============================
+
+http://wordpress.org/plugins/wp-toolbar-removal/screenshots/
