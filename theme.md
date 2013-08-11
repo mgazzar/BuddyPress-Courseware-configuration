@@ -62,3 +62,8 @@ C:\xampp\htdocs\xxxx\wp-content\themes\customizr\parts\class-content-post.php
 
   <div class="tc-content <?php echo $content_class; ?>">
       
+remove post thum
+===================
+C:\xampp\htdocs\xxxx\wp-content\themes\customizr\parts\class-content-post.php
+
+ add_action  ( '__post_thumbnail'        , array( $this , 'tc_content_post_thumbnail' ));
