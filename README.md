@@ -20,5 +20,10 @@ Warning: array_merge() [function.array-merge]: Argument #2 is not an array in /h
 Warning: Invalid argument supplied for foreach() in /home/dougm196/public_html/nes/wp-content/plugins/buddypress-courseware/roles/roles.class.php on line 271
 
 
-just put the (array) part in
-$group_members = array_merge( $group_admins, (array)$group_members['members'] );
+just Insert this code
+
+ini_set(‘display_errors’,’off’);
+
+on the top of this page, after the beginning php tag <?php
+
+/wp-content/plugins/buddypress-courseware/roles/roles.class.php
