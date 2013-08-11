@@ -44,3 +44,14 @@ to edit the upper menu
   color: #777777;
   text-decoration: none;
 }
+
+
+
+_______________________________________
+
+enhancing the drop shadow
+
+ -moz-box-shadow: 0 0 5px #888;
+-webkit-box-shadow: 0 0 5px#888;
+box-shadow: 0 0 5px #888;
+http://www.css3.info/preview/box-shadow/
