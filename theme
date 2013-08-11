@@ -1,5 +1,5 @@
 to edit the slider follow these instructions
-
+========================================
 Tried also add lines into the child css like
 
 .carousel .item {
@@ -23,7 +23,7 @@ height: auto;
 http://wordpress.org/support/topic/slider-height-3/page/2
 
 
--------------------------------------------
+==============================================
 
 to edit the navbar 
 
@@ -55,3 +55,12 @@ enhancing the drop shadow
 -webkit-box-shadow: 0 0 5px#888;
 box-shadow: 0 0 5px #888;
 http://www.css3.info/preview/box-shadow/
+
+
+to edit post 
+====================================
+remove this line form
+C:\xampp\htdocs\xxxx\wp-content\themes\customizr\parts\class-content-post.php
+
+  <div class="tc-content <?php echo $content_class; ?>">
+      
