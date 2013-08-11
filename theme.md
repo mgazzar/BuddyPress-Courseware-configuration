@@ -1,4 +1,4 @@
-to edit the slider follow these instructions
+edit the slider follow these instructions
 ============================================
 Tried also add lines into the child css like
 
@@ -22,12 +22,8 @@ height: auto;
 
 http://wordpress.org/support/topic/slider-height-3/page/2
 
-
+edit the navbar 
 ==============================================
-
-to edit the navbar 
-
-
 
 .navbar .nav > li > a {
 color: COLOURVALUE;
@@ -35,8 +31,9 @@ color: COLOURVALUE;
 
 http://wordpress.org/support/topic/change-color-of-words-in-menu?replies=4
 
------------------
+
 to edit the upper menu
+======================
 
 .navbar .nav > li > a {
   float: none;
@@ -47,9 +44,10 @@ to edit the upper menu
 
 
 
-_______________________________________
+
 
 enhancing the drop shadow
+=========================
 
  -moz-box-shadow: 0 0 5px #888;
 -webkit-box-shadow: 0 0 5px#888;
