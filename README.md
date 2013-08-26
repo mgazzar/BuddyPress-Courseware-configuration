@@ -29,9 +29,7 @@ on the top of this page, after the beginning php tag <?php
 /wp-content/plugins/buddypress-courseware/roles/roles.class.php
 
 
-ivycat-ajax-testimonials
+Testimonials Widget
 ==========================
 
-eidt the testimonials-loop-template.php file and style ur code
 
-<blockquote class="testimonial-content content entry-content">
