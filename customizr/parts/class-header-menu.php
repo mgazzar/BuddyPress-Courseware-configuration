@@ -62,7 +62,6 @@ class TC_menu {
           return $output;
       }
 
-
      /**
       * Menu Rendering
       *
@@ -71,30 +70,17 @@ class TC_menu {
      */
     function tc_render_menu() {
       ?>
-      <div class="navbar notresp row-fluid ">
-
-              <div class="navbar-inner" role="navigation" >
-
- <div class="brand span3">
-            <h1><a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' , 'display' ) ); ?> | <?php bloginfo( 'description' ); ?>"><img src="<?php echo $logo_src ?>" alt="<?php _e( 'Back Home' , 'customizr' ); ?>" <?php echo $logo_img_style ?>/></a>
-            </h1>
+      <div class="navbar notresp row-fluid">
+ <div class="navbar-inner" role="navigation" >
+	        <div class="brand">
+     <h2>       <a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' , 'display' ) ); ?> | <?php bloginfo( 'description' ); ?>"><img src="<?php echo $logo_src ?>" alt="<?php _e( 'Back Home' , 'customizr' ); ?>" <?php echo $logo_img_style ?>/></a>
+         </h2>   
           </div>
-
-
-
-<!--here u can add the logo -->
-            <h2><a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' , 'display' ) ); ?> | <?php bloginfo( 'description' ); ?>"><img src="<?php echo $logo_src ?>" alt="<?php _e( 'PEAK' , 'customizr' ); ?>" <?php echo $logo_img_style ?>/></a>
-            </h2>
-          
-
-
-             <?php wp_nav_menu( array( 'theme_location' => 'main' , 'menu_class' => 'nav' , 'fallback_cb' => array( $this , 'tc_link_to_menu_editor' ), 'walker' => tc__ ( 'header' , 'nav_walker' )) );  ?>
+	  
+<h2><a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' , 'display' ) ); ?> | <?php bloginfo( 'description' ); ?>"><img src="<?php echo $logo_src ?>" alt="<?php _e( 'PEAK' , 'customizr' ); ?>" <?php echo $logo_img_style ?>/></a>
+</h2>
+                    <?php wp_nav_menu( array( 'theme_location' => 'main' , 'menu_class' => 'nav' , 'fallback_cb' => array( $this , 'tc_link_to_menu_editor' ), 'walker' => tc__ ( 'header' , 'nav_walker' )) );  ?>
                   
-             
-
-              </div><!-- /.navbar-inner -->
-
-   
 
           <div class="navbar resp">
 
