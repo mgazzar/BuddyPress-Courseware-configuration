@@ -72,3 +72,9 @@ Remove Disable ToolBar Removal
 =============================
 
 http://wordpress.org/plugins/wp-toolbar-removal/screenshots/
+
+
+update the upper nav
+====================
+in line 5300
+navbar-wrapper class
