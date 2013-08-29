@@ -75,6 +75,13 @@ class TC_menu {
 
               <div class="navbar-inner" role="navigation" >
 
+ <div class="brand span3">
+            <h1><a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' , 'display' ) ); ?> | <?php bloginfo( 'description' ); ?>"><img src="<?php echo $logo_src ?>" alt="<?php _e( 'Back Home' , 'customizr' ); ?>" <?php echo $logo_img_style ?>/></a>
+            </h1>
+          </div>
+
+
+
 <!--here u can add the logo -->
             <h2><a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' , 'display' ) ); ?> | <?php bloginfo( 'description' ); ?>"><img src="<?php echo $logo_src ?>" alt="<?php _e( 'PEAK' , 'customizr' ); ?>" <?php echo $logo_img_style ?>/></a>
             </h2>
