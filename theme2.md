@@ -14,3 +14,10 @@ logo
                 
 
     <?php endif; // header image was removed (again) ?>
+
+
+
+search bar
+==========
+change the position of this line in index.php
+get_sidebar('top')
