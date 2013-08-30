@@ -23,3 +23,12 @@ change the position of this line in header.php
 
 
 get_sidebar('top')
+
+
+footer
+======
+add <hr>
+to line 35 before 
+
+    <div id="footer-wrapper">
+    
