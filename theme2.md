@@ -19,5 +19,7 @@ logo
 
 search bar
 ==========
-change the position of this line in index.php
+change the position of this line in header.php
+
+
 get_sidebar('top')
