@@ -14,3 +14,12 @@ http://www.findurlaptop.com/tech/2013/08/04/customize-header-of-twenty-thirteen-
 }
 
 
+
+3- edit the nav bar add these lines to the hover in line 870 
+.nav-menu li a:hover {
+
+
+
+border-top-left-radius: 10px 5px;
+border-bottom-right-radius: 10% 5%;
+border-top-right-radius: 10px; 
