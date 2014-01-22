@@ -5,4 +5,12 @@ http://www.findurlaptop.com/tech/2013/08/04/customize-header-of-twenty-thirteen-
 
 
 1- remove pic from header custmization.
-2- 
+2- add drop shadow in line 924 style.css
+
+.one-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+
