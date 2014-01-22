@@ -11,7 +11,8 @@ Fisrt step is to edit groups.class.php to remove some issues
 Second u need to activate the forum from buddypress settings to activate BuddyPress-Courseware
 
 
-
+in case of using WP 1.9.1 
+u can use the fourm without installing bbprees
 Configure Courseware
 ======================
 
